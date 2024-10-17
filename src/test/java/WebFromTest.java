@@ -38,6 +38,7 @@ public class WebFromTest {
         WebForm.clickButton();
         Assert.assertEquals(SuccessForm.getText(SuccessForm.h1), "Form submitted");
         Assert.assertEquals(SuccessForm.getText(SuccessForm.message), "Received!");
+
     }
 
     @AfterMethod
